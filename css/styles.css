@@ -16,6 +16,7 @@ a {
 
 a:hover {
   text-decoration:none;
+  color:#565656;
 }
 
 hr {
@@ -73,7 +74,7 @@ hr {
 
 .navbar-blue {
     border-width:0;
-	background-color:#3B5999;
+	background-color:#fd7e02;
     color:#ffffff;
     font-family:arial,sans-serif;
     top:0;
@@ -85,11 +86,11 @@ hr {
    color:#efefef;
 }
 
-.navbar-blue .dropdown-menu li a {color:#2A4888;}
+.navbar-blue .dropdown-menu li a {color:#ff8a00;}
 .navbar-blue .dropdown-menu li > a {padding-left:30px;}
 
 .navbar-blue li>a:hover, .navbar-blue li>a:focus, .navbar-blue .open, .navbar-blue .open>a, .navbar-blue .open>a:hover, .navbar-blue .open>a:focus {
-   background-color:#2A4888;
+   background-color:#ff8a00;
    color:#fff;
 }
 
@@ -123,9 +124,9 @@ hr {
   display:block;
   padding:3px;
   background-color:#fff;
-  color:#3B5999;
-  height:28px;
-  width:28px;
+  color:#000;
+  height:32px;
+  width:34px;
   margin:9px;
   margin-right:2px;
   margin-left:15px;
@@ -161,7 +162,7 @@ h1,h2,h3 {
 }
 
 .btn-primary,.label-primary,.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus  {
-	background-color:#3B5999;
+	background-color:#ff8a00;
     color:#fffffe;
 }
 .btn-default {
@@ -178,11 +179,11 @@ h1,h2,h3 {
 }
   
 .badge{
-   color:#3B5999;
+   color:#ff8a00;
    background-color:#fff;
 }
 .badge:hover, .badge-inverse{
-   background-color:#3B5999;
+   background-color:#ff8a00;
    color:#fff;
 }
     
@@ -248,7 +249,7 @@ small.text-muted {
   }
 
   .navbar-blue {
-	background-color:#3B5999;
+	background-color:#ff8a00;
     top:0;
     width:100%;
     position:relative;
